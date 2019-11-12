@@ -21,4 +21,8 @@
 #include "lyrat_mini_v1_1/board_def_lyrat_mini_v1_1.h"
 #endif
 
+#ifdef CONFIG_ESP_AUDIO_KIT_V2_2_BOARD
+#include "audio_kit_v2_2/board_def_audio_kit_v2_2.h"
+#endif
+
 #endif
